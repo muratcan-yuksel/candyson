@@ -1,0 +1,29 @@
+.infoImgContainer {
+  height: 100%;
+  width: 100%;
+}
+.infoImg {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.infoTextGroup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+  height: 100%;
+  width: 100%;
+}
+.infoTitle {
+  color: white;
+  /* background-color: black; */
+  font-size: 5em;
+  border-bottom: 5px solid #04baad;
+}
+.infoPara {
+  color: white;
+  /* background-color: black; */
+  font-size: 1.2em;
+}

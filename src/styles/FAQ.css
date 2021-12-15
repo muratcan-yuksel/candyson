@@ -1,0 +1,27 @@
+#faqContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px dashed #04baad;
+  margin-bottom: 5em;
+  margin-top: 5em;
+}
+#faqGeneralTitle {
+  border-bottom: 5px solid #04baad;
+  font-size: 5em;
+  color: #04baad;
+}
+.faqDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2em;
+}
+.faqTitle {
+  font-size: 3.5em;
+}
+.faqPara {
+  font-size: 2em;
+}

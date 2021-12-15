@@ -1,0 +1,9 @@
+#communityComponent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1em 0 1em 0;
+  height: 100%;
+  width: 100%;
+}

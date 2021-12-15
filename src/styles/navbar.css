@@ -1,0 +1,27 @@
+#navbarComponent {
+  /* height: 8em !important; */
+  margin-bottom: 8em;
+  height: 100%;
+  width: 100%;
+}
+#navbarStyling {
+  width: 100% !important;
+}
+
+#menuBtn {
+  background-color: #144441 !important;
+}
+#navbarTitle {
+  color: white !important;
+  border-bottom: 5px solid #04baad;
+}
+.navText {
+  color: white !important;
+}
+#navbarLogoContainer {
+  height: 5em;
+}
+#navbarLogo {
+  height: 100%;
+  width: 100%;
+}

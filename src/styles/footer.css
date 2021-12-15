@@ -1,0 +1,12 @@
+#footerComponent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #04baad;
+  color: white;
+  /* border-top: 2px solid white; */
+}
+#footerPara {
+  font-weight: 700;
+}

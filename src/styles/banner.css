@@ -1,0 +1,26 @@
+#bannerComponent {
+  width: 100%;
+  height: 100%;
+}
+#banner {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+}
+#bannerContainer {
+  width: 100%;
+  height: 100%;
+}
+#NFTContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#NFTwallet {
+  z-index: 5;
+  position: relative;
+}

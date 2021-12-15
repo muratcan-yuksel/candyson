@@ -1,0 +1,56 @@
+#landingComponent {
+  height: 100%;
+  width: 100%;
+}
+
+#landingText {
+  height: 100%;
+  width: 100%;
+  /* border: 2px solid brown; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: black; */
+  color: white;
+}
+#landingImgContainer {
+  height: 100%;
+  width: 100%;
+}
+#landingImg {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+#landingTitle {
+  font-size: 3.2em;
+  border-bottom: 5px solid #04baad;
+}
+#landingPara {
+  font-size: 1.3em;
+}
+#connectBtn {
+  background-color: #04baad;
+  font-size: 3em;
+  font-weight: 500;
+}
+.walletPara {
+  color: #04baad;
+  font-weight: 900;
+  font-size: 1.2em;
+}
+#mintBtn {
+  background-color: #04baad;
+  font-size: 2em;
+  font-weight: 500;
+  color: white;
+}
+#bannerContainer {
+  height: 100%;
+  width: 100%;
+}
+#banner {
+  height: 100%;
+  width: 100%;
+}

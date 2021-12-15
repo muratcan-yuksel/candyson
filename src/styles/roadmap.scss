@@ -1,0 +1,66 @@
+//Colors
+// white: #34435e;
+$white: #ffffff;
+#roadmapComponent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2em 0 2em 0;
+}
+#roadmapTitle {
+  font-size: 5em;
+  border-bottom: 5px solid #04baad;
+}
+.phaseTitle {
+  font-size: 3em;
+  border: 2px dashed #04baad;
+  margin: 1em;
+  padding: 10px;
+}
+.roadPara {
+  font-size: 1em;
+  line-height: 1.75em;
+  border-top: 3px solid;
+  border-image: linear-gradient(to right, #5eecb6 0%, #081fa5 100%);
+  border-image-slice: 1;
+  border-width: 3px;
+  margin: 0 3em 0 3em;
+  padding: 40px;
+  counter-increment: section;
+  position: relative;
+  color: white;
+  width: 90%;
+  text-align: center;
+  font-size: 2em;
+}
+//odd number borders
+.roadPara:nth-child(odd) {
+  border-right: 3px solid;
+  padding-left: 0;
+
+  &:before {
+    left: 100%;
+    margin-left: -20px;
+  }
+}
+//even number borders
+.roadPara:nth-child(even) {
+  border-left: 3px solid;
+  padding-right: 0;
+
+  &:before {
+    right: 100%;
+    margin-right: -20px;
+  }
+}
+//handle first and last
+.roadPara:first-child {
+  border-top: 0;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+.roadPara:last-child {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
